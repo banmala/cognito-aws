@@ -1,11 +1,10 @@
 import React, { useEffect } from "react";
 
 const GoogleLogin = () => {
-    console.log("process.env.REACT_APP_API_KEY: ",process.env.REACT_APP_API_KEY);
     useEffect(() =>     {
         /* global google */
         google.accounts.id.initialize({
-            client_id: "779367105682-t1b0p4qn3q1ng68sffa4ffpienhr5hgt.apps.googleusercontent.com",
+            client_id: process.env.REACT_APP_GoogleClientId,
             callback: (response) => {
                 console.log("Encoded Jwt token: ",response.credentials);
             }

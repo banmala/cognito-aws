@@ -1,8 +1,8 @@
 import {CognitoUserPool} from 'amazon-cognito-identity-js';
 
 const poolData = {
-    UserPoolId: "ap-southeast-2_BJM4uzFdR",
-    ClientId: "ejgmmghdr8lbtc2h4ha0ov1ii"
+    UserPoolId: process.env.REACT_APP_Cognito_UserPoolId,
+    ClientId: process.env.REACT_APP_Cognito_ClientId
 }
 // eslint-disable-next-line
 export default new CognitoUserPool(poolData);

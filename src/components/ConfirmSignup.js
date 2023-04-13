@@ -12,7 +12,7 @@ const ConfirmSignup = () => {
     const onSubmit = (e) => {
         e.preventDefault();
         var params = {
-            ClientId: "ejgmmghdr8lbtc2h4ha0ov1ii",
+            ClientId: process.env.REACT_APP_Cognito_ClientId,
             Username: email,
             ConfirmationCode: code,
         };
