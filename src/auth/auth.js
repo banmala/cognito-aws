@@ -53,7 +53,18 @@ const auth = {
             }
             return data;
         });
-    }
+    },
+    // signInWithGoogleProvider: () =>{
+
+    //     var params = {
+    //         IdpIdentifier: 'STRING_VALUE', /* required */
+    //         UserPoolId: process.env.REACT_APP_Cognito_UserPoolId, /* required */
+    //       };
+    //       cognitoidentityserviceprovider.getIdentityProviderByIdentifier(params, function(err, data) {
+    //         if (err) console.log(err, err.stack); // an error occurred
+    //         else     console.log(data);           // successful response
+    //       });
+    // }
     // signIn: (email: string, password: string) => {
     //     return firebase.auth().signInWithEmailAndPassword(email, password);
     // },

@@ -1,8 +1,7 @@
+// import GoogleLogin, { GoogleLogout } from 'react-google-login';
 import './App.css';
-import ConfirmSignup from './components/ConfirmSignup';
-import GoogleLogin from './components/Google';
-import Login from './components/Login';
-import Signup from './components/Signup';
+import GoogleLoginApp from './components/Google';
+import LoginUsingGoogle from './components/GoogleLogin';
 
 function App() {
   return (
@@ -13,7 +12,9 @@ function App() {
       <br/>
       <Login /> */}
       <br/>
-      <GoogleLogin />
+      <GoogleLoginApp />
+      {/* <GoogleLogout /> */}
+      <LoginUsingGoogle />
     </div>
   );
 }
