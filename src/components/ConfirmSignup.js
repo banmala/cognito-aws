@@ -1,28 +1,19 @@
 import React, {useState} from "react";
-import AWS from "aws-sdk";
+import auth from "../auth/auth";
+
 const ConfirmSignup = () => {   
     const [email, setEmail] = useState("");
     const [code, setCode] = useState("");
-
-    AWS.config.update({
-        region: 'ap-southeast-2'
-    });
-    var cognitoidentityserviceprovider = new AWS.CognitoIdentityServiceProvider();
-
+    
     const onSubmit = (e) => {
         e.preventDefault();
-        var params = {
-            ClientId: process.env.REACT_APP_Cognito_ClientId,
-            Username: email,
-            ConfirmationCode: code,
-        };
-        cognitoidentityserviceprovider.confirmSignUp(params, function(err, data) {
-            if(err){
-                console.log("Error: ",err, err.stack);
-            }else{
-                console.log("data: ",data);
-            }
-        });
+        try{
+            const result = auth.signUpConfirm(email, code);
+            console.log("result: ", result);
+        }
+        catch(err){
+            console.log("Error: ", err);
+        }
     };
 
     return (

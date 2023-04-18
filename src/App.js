@@ -7,11 +7,11 @@ import Signup from './components/Signup';
 function App() {
   return (
     <div>
-      <Signup />
+      {/* <Signup />
       <br/>
       <ConfirmSignup />
       <br/>
-      <Login />
+      <Login /> */}
       <br/>
       <GoogleLogin />
     </div>

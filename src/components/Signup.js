@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import UserPool from "../UserPool";
+import auth from "../auth/auth";
 
 const Signup = () => {
     const [email, setEmail] = useState("");
@@ -8,12 +8,12 @@ const Signup = () => {
     const onSubmit = (e) => {
         e.preventDefault();
 
-        UserPool.signUp(email, password, [], null, (err, data) => {
-            if (err){
-                console.error("error: ", err);
-            }
-            console.log("data: ", data);
-        });
+        try{
+            const result = auth.signUp(email, password);
+            console.log("result: ", result);
+        }catch(error){
+            console.log("error: ", error);
+        }
     };
 
     return (
