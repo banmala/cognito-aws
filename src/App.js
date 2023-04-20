@@ -1,21 +1,20 @@
-// import GoogleLogin, { GoogleLogout } from 'react-google-login';
 import './App.css';
-import GoogleLoginApp from './components/Google';
-import LoginUsingGoogle from './components/GoogleLogin';
-
+import LoginUsingGoogle from './components/LoginUsingGoogle';
+import { GoogleOAuthProvider } from '@react-oauth/google';
 function App() {
   return (
-    <div>
-      {/* <Signup />
-      <br/>
-      <ConfirmSignup />
-      <br/>
-      <Login /> */}
-      <br/>
-      <GoogleLoginApp />
-      {/* <GoogleLogout /> */}
-      <LoginUsingGoogle />
-    </div>
+    <GoogleOAuthProvider clientId={process.env.REACT_APP_Google_ClientId}>
+      <div>
+        {/* <Signup />
+        <br/>
+        <ConfirmSignup />
+        <br/>
+        <Login /> */}
+        {/* <GoogleLoginApp /> */}
+        <br/>
+        <LoginUsingGoogle />
+      </div>
+    </GoogleOAuthProvider>
   );
 }
 

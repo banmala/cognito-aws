@@ -40,9 +40,6 @@ const auth = {
             },
             onFailure: (err) => {
                 throw err;
-            },
-            newPasswordRequired: (data) => {
-                throw data;
             }
         });
     },
