@@ -1,0 +1,13 @@
+signup 
+https://login.microsoftonline.com/common/oauth2/v2.0/authorize?response_type=code&client_id=e4157660-63b7-4f94-bbdd-90bda878df49&redirect_uri=https%3A%2F%2Fsymphony-value-modeller-cloud.firebaseapp.com%2F__%2Fauth%2Fhandler&state=&scope=profile%20email%20openid%20User.Read&prompt=select_account&context_uri=https%3A%2F%2Fdev.concertoanalytics.com
+
+login
+https://login.microsoftonline.com/common/oauth2/v2.0/authorize?response_type=code&client_id=e4157660-63b7-4f94-bbdd-90bda878df49&redirect_uri=https%3A%2F%2Fsymphony-value-modeller-cloud.firebaseapp.com%2F__%2Fauth%2Fhandler&state=&scope=profile%20email%20openid%20User.Read&prompt=select_account&context_uri=https%3A%2F%2Fdev.concertoanalytics.com
+
+Google Login
+https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?response_type=code&client_id=1029832200031-s6odvh1o6osd8qcn5g481brgtc58ijql.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fsymphony-value-modeller-cloud.firebaseapp.com%2F__%2Fauth%2Fhandler&state=&scope=openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20profile&prompt=select_account&hl=en&context_uri=https%3A%2F%2Fdev.concertoanalytics.com&service=lso&o2v=1&flowName=GeneralOAuthFlow
+
+signup
+https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?response_type=code&client_id=1029832200031-s6odvh1o6osd8qcn5g481brgtc58ijql.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fsymphony-value-modeller-cloud.firebaseapp.com%2F__%2Fauth%2Fhandler&state=&scope=openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20profile&prompt=select_account&hl=en&context_uri=https%3A%2F%2Fdev.concertoanalytics.com&service=lso&o2v=1&flowName=GeneralOAuthFlow
+
+   

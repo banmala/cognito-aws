@@ -1,0 +1,114 @@
+{
+  "authority": "https://login.microsoftonline.com/common/",
+  "uniqueId": "09931512-2bd0-4c6f-99e8-eed89f882827",
+  "tenantId": "3f2fd500-5014-4b19-a974-090eb60cffd5",
+  "scopes": [
+    "openid",
+    "profile",
+    "email",
+    "User.Read"
+  ],
+  "account": {
+    "homeAccountId": "09931512-2bd0-4c6f-99e8-eed89f882827.3f2fd500-5014-4b19-a974-090eb60cffd5",
+    "environment": "login.windows.net",
+    "tenantId": "3f2fd500-5014-4b19-a974-090eb60cffd5",
+    "username": "KCE074BCT045@khwopa.edu.np",
+    "localAccountId": "09931512-2bd0-4c6f-99e8-eed89f882827",
+    "name": "Sunil Banmala",
+    "idTokenClaims": {
+      "aud": "161e3509-0118-4ea8-a1e0-2a8f9e937eb9",
+      "iss": "https://login.microsoftonline.com/3f2fd500-5014-4b19-a974-090eb60cffd5/v2.0",
+      "iat": 1682330137,
+      "nbf": 1682330137,
+      "exp": 1682334037,
+      "aio": "ATQAy/8TAAAAHjbGVDNJXW1LamdNPeOX11b+/Zp2bTvTTPEDZ50dDLtojtWRJ0WEQVfBBPU+sPu6",
+      "name": "Sunil Banmala",
+      "nonce": "8f6700b0-aa7f-46b8-b694-42e7b3cae577",
+      "oid": "09931512-2bd0-4c6f-99e8-eed89f882827",
+      "preferred_username": "KCE074BCT045@khwopa.edu.np",
+      "rh": "0.ASoAANUvPxRQGUupdAkOtgz_1Qk1HhYYAahOoeAqj56TfrkqANQ.",
+      "sub": "8n2x1qS9c2pBgfTFNw9SnequtTEg0ppXTyrk_oeSETw",
+      "tid": "3f2fd500-5014-4b19-a974-090eb60cffd5",
+      "uti": "ELSv4rxWvEuvPOCxdcUFAA",
+      "ver": "2.0"
+    }
+  },
+  "idToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiIxNjFlMzUwOS0wMTE4LTRlYTgtYTFlMC0yYThmOWU5MzdlYjkiLCJpc3MiOiJodHRwczovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vM2YyZmQ1MDAtNTAxNC00YjE5LWE5NzQtMDkwZWI2MGNmZmQ1L3YyLjAiLCJpYXQiOjE2ODIzMzAxMzcsIm5iZiI6MTY4MjMzMDEzNywiZXhwIjoxNjgyMzM0MDM3LCJhaW8iOiJBVFFBeS84VEFBQUFIamJHVkROSlhXMUxhbWROUGVPWDExYisvWnAyYlR2VFRQRURaNTBkREx0b2p0V1JKMFdFUVZmQkJQVStzUHU2IiwibmFtZSI6IlN1bmlsIEJhbm1hbGEiLCJub25jZSI6IjhmNjcwMGIwLWFhN2YtNDZiOC1iNjk0LTQyZTdiM2NhZTU3NyIsIm9pZCI6IjA5OTMxNTEyLTJiZDAtNGM2Zi05OWU4LWVlZDg5Zjg4MjgyNyIsInByZWZlcnJlZF91c2VybmFtZSI6IktDRTA3NEJDVDA0NUBraHdvcGEuZWR1Lm5wIiwicmgiOiIwLkFTb0FBTlV2UHhSUUdVdXBkQWtPdGd6XzFRazFIaFlZQWFoT29lQXFqNTZUZnJrcUFOUS4iLCJzdWIiOiI4bjJ4MXFTOWMycEJnZlRGTnc5U25lcXV0VEVnMHBwWFR5cmtfb2VTRVR3IiwidGlkIjoiM2YyZmQ1MDAtNTAxNC00YjE5LWE5NzQtMDkwZWI2MGNmZmQ1IiwidXRpIjoiRUxTdjRyeFd2RXV2UE9DeGRjVUZBQSIsInZlciI6IjIuMCJ9.RVGlhckvy9AuMZiTjtIe8orOn1mzwF2-Qs-ed1r2zCW9Mil31-FPcmwj-DE-LqHnF5ABQhrsUUkXfpffzzlpxFW_tniReUn6rI5UCoXFDCiGm0bvPjMwIKW_WaeshvV9hEN1dTvUHpCWc8iUKCnDHrZQPf4FTzeb8yiY4q5cKXD1NIrV0YJCoaDb5XCaCy48T3jARRZEqa5niR9W10P-8y1779EK-qocKeh4CeA9ETSJfrZQLp4aV7J1BIrM624tOUI-hn3HmKronz6V6WABPOHEtVfLhNmqEvdGkDtbjL6_1RMsJkFiJb7FiDVdvICB3IRDD8f5iooUOFH77unEsg",
+  "idTokenClaims": {
+    "aud": "161e3509-0118-4ea8-a1e0-2a8f9e937eb9",
+    "iss": "https://login.microsoftonline.com/3f2fd500-5014-4b19-a974-090eb60cffd5/v2.0",
+    "iat": 1682330137,
+    "nbf": 1682330137,
+    "exp": 1682334037,
+    "aio": "ATQAy/8TAAAAHjbGVDNJXW1LamdNPeOX11b+/Zp2bTvTTPEDZ50dDLtojtWRJ0WEQVfBBPU+sPu6",
+    "name": "Sunil Banmala",
+    "nonce": "8f6700b0-aa7f-46b8-b694-42e7b3cae577",
+    "oid": "09931512-2bd0-4c6f-99e8-eed89f882827",
+    "preferred_username": "KCE074BCT045@khwopa.edu.np",
+    "rh": "0.ASoAANUvPxRQGUupdAkOtgz_1Qk1HhYYAahOoeAqj56TfrkqANQ.",
+    "sub": "8n2x1qS9c2pBgfTFNw9SnequtTEg0ppXTyrk_oeSETw",
+    "tid": "3f2fd500-5014-4b19-a974-090eb60cffd5",
+    "uti": "ELSv4rxWvEuvPOCxdcUFAA",
+    "ver": "2.0"
+  },
+  "accessToken": "eyJ0eXAiOiJKV1QiLCJub25jZSI6IjhNTmNMNlFkTmxjYnd2aUxaY2s4d2FWWTFCZDZEamszU0J1RHE4SXlhSDQiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC8zZjJmZDUwMC01MDE0LTRiMTktYTk3NC0wOTBlYjYwY2ZmZDUvIiwiaWF0IjoxNjgyMzMwMTM3LCJuYmYiOjE2ODIzMzAxMzcsImV4cCI6MTY4MjMzNDY2MiwiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFUUUF5LzhUQUFBQTZxUjhSM2d6RnNKcHFDVmRHMVcwTXV2TUpWM0RZR1ZCY1VNeTlHekhkN3J5L3Q4QjJucUZDUm5PaVROS1JScGwiLCJhbXIiOlsicHdkIl0sImFwcF9kaXNwbGF5bmFtZSI6Ik1TIENvbmNlcnRvIiwiYXBwaWQiOiIxNjFlMzUwOS0wMTE4LTRlYTgtYTFlMC0yYThmOWU5MzdlYjkiLCJhcHBpZGFjciI6IjAiLCJmYW1pbHlfbmFtZSI6IkJhbm1hbGEiLCJnaXZlbl9uYW1lIjoiU3VuaWwiLCJpZHR5cCI6InVzZXIiLCJpcGFkZHIiOiIxMTAuNDQuMTI2LjExOSIsIm5hbWUiOiJTdW5pbCBCYW5tYWxhIiwib2lkIjoiMDk5MzE1MTItMmJkMC00YzZmLTk5ZTgtZWVkODlmODgyODI3IiwicGxhdGYiOiI4IiwicHVpZCI6IjEwMDMyMDAwQ0NDRkY1MTciLCJyaCI6IjAuQVNvQUFOVXZQeFJRR1V1cGRBa090Z3pfMVFNQUFBQUFBQUFBd0FBQUFBQUFBQUFxQU5RLiIsInNjcCI6Im9wZW5pZCBwcm9maWxlIFVzZXIuUmVhZCBlbWFpbCIsInNpZ25pbl9zdGF0ZSI6WyJrbXNpIl0sInN1YiI6IlRTTnplc2hBTmlDNXlZM0wtNGJmWU1wSHpGRVUwWm9Oa0NXYXV2cnA5OGciLCJ0ZW5hbnRfcmVnaW9uX3Njb3BlIjoiQVMiLCJ0aWQiOiIzZjJmZDUwMC01MDE0LTRiMTktYTk3NC0wOTBlYjYwY2ZmZDUiLCJ1bmlxdWVfbmFtZSI6IktDRTA3NEJDVDA0NUBraHdvcGEuZWR1Lm5wIiwidXBuIjoiS0NFMDc0QkNUMDQ1QGtod29wYS5lZHUubnAiLCJ1dGkiOiJFTFN2NHJ4V3ZFdXZQT0N4ZGNVRkFBIiwidmVyIjoiMS4wIiwid2lkcyI6WyJiNzlmYmY0ZC0zZWY5LTQ2ODktODE0My03NmIxOTRlODU1MDkiXSwieG1zX3N0Ijp7InN1YiI6IjhuMngxcVM5YzJwQmdmVEZOdzlTbmVxdXRURWcwcHBYVHlya19vZVNFVHcifSwieG1zX3RjZHQiOjE1Mzc3OTA3ODd9.HJTSQ8-LroxDzX8tx7GchJjeKphqgSVCMkvNKVrhupThXm0fdccfsh9DW7_oFavgNf9b-MFNGfemSHDK4FfoDF6gE7dXCxxSvSy-uDNRzIMr2PWh1jm9O5GyWWDZI2fb3uLJXa4Z_tKiCF1Mw0zznUX4qaxntDKxhxVupTib6MFtzpfT3bdlMlRcHFgqjUSCRiB6akJZ6FJaa2KL_jrvJPw9lWowQshwyZjR6_uqjtmnvUp1JjcQ-43h98BgiDVwNu2J6fpIGUOC5uClhNNud5f1cSMSch5RhAzeH2Nbb8dlSFI8Bz-_nY9jSHthX4AIshs9W_KrBneGL8cocd5ffA",
+  "fromCache": false,
+  "expiresOn": "2023-04-24T11:11:01.000Z",
+  "correlationId": "7aa031c2-503d-4a34-a374-6d6e7b2272ce",
+  "requestId": "e2afb410-56bc-4bbc-af3c-e0b175c50500",
+  "extExpiresOn": "2023-04-24T12:21:25.000Z",
+  "familyId": "",
+  "tokenType": "Bearer",
+  "state": "",
+  "cloudGraphHostName": "",
+  "msGraphHost": "",
+  "fromNativeBroker": false
+}
+
+
+https://concertodev.auth.ap-southeast-2.amazoncognito.com/login?client_id=ejgmmghdr8lbtc2h4ha0ov1ii&response_type=code&scope=aws.cognito.signin.user.admin+email+openid+phone+profile&redirect_uri=http://localhost:3000/signin
+
+https://concertodev.auth.ap-southeast-2.amazoncognito.com/error?error=redirect_mismatch&client_id=ejgmmghdr8lbtc2h4ha0ov1ii
+
+https://concertodev.auth.ap-southeast-2.amazoncognito.com/login?client_id=ejgmmghdr8lbtc2h4ha0ov1ii&r[%E2%80%A6]ri=https%3A%2F%2Flocalhost%3A3000%2Fcallback
+
+https://concertodev.auth.ap-southeast-2.amazoncognito.com/login?client_id=ejgmmghdr8lbtc2h4ha0ov1ii&response_type=code&scope=email+openid+phone&redirect_uri=https%3A%2F%2Flocalhost%3A3000%2Fcallback
+
+response from MS
+user: {
+  "userPoolId": "ap-southeast-2_BJM4uzFdR",
+  "clientId": "ejgmmghdr8lbtc2h4ha0ov1ii",
+  "client": {
+    "endpoint": "https://cognito-idp.ap-southeast-2.amazonaws.com/",
+    "fetchOptions": {}
+  },
+  "advancedSecurityDataCollectionFlag": true,
+  "storage": {
+    "msal.account.keys": "[\"09931512-2bd0-4c6f-99e8-eed89f882827.3f2fd500-5014-4b19-a974-090eb60cffd5-login.windows.net-3f2fd500-5014-4b19-a974-090eb60cffd5\"]",
+    "msalAccount": "09931512-2bd0-4c6f-99e8-eed89f882827.3f2fd500-5014-4b19-a974-090eb60cffd5",
+    "09931512-2bd0-4c6f-99e8-eed89f882827.3f2fd500-5014-4b19-a974-090eb60cffd5-login.windows.net-3f2fd500-5014-4b19-a974-090eb60cffd5": "{\"
+    authorityType\":\"MSSTS\",\"clientInfo\":\"eyJ1aWQiOiIwOTkzMTUxMi0yYmQwLTRjNmYtOTllOC1lZWQ4OWY4ODI4MjciLCJ1dGlkIjoiM2YyZmQ1MDAtNTAxNC00YjE5LWE5NzQtMDkwZWI2MGNmZmQ1In0\",\"homeAccountId\":\"09931512-2bd0-4c6f-99e8-eed89f882827.3f2fd500-5014-4b19-a974-090eb60cffd5\",\"environment\":\"login.windows.net\",\"realm\":\"3f2fd500-5014-4b19-a974-090eb60cffd5\",\"idTokenClaims\":{\"
+    aud\":\"161e3509-0118-4ea8-a1e0-2a8f9e937eb9\",\"iss\":\"https://login.microsoftonline.com/3f2fd500-5014-4b19-a974-090eb60cffd5/v2.0\",\"iat\":1682418020,\"nbf\":1682418020,\"exp\":1682421920,\"aio\":\"ATQAy/8TAAAADLgfmhSOhabjs8xuPlBOT3vpwjWBx/ztrhaOVqX4vVocr0Hr85RRh46wBa2xCH3p\",\"name\":\"Sunil Banmala\",\"nonce\":\"59da73d1-736e-4f08-ae67-c74f3e3e88f5\",\"oid\":\"09931512-2bd0-4c6f-99e8-eed89f882827\",\"preferred_username\":\"KCE074BCT045@khwopa.edu.np\",\"rh\":\"0.ASoAANUvPxRQGUupdAkOtgz_1Qk1HhYYAahOoeAqj56TfrkqANQ.\",\"sub\":\"8n2x1qS9c2pBgfTFNw9SnequtTEg0ppXTyrk_oeSETw\",\"tid\":\"3f2fd500-5014-4b19-a974-090eb60cffd5\",\"uti\":\"vSSBZiGbn0aADnXnEoYYAA\",\"ver\":\"2.0\"},\"localAccountId\":\"09931512-2bd0-4c6f-99e8-eed89f882827\",\"username\":\"KCE074BCT045@khwopa.edu.np\",\"name\":\"Sunil Banmala\"}",
+    "09931512-2bd0-4c6f-99e8-eed89f882827.3f2fd500-5014-4b19-a974-090eb60cffd5-login.windows.net-idtoken-161e3509-0118-4ea8-a1e0-2a8f9e937eb9-3f2fd500-5014-4b19-a974-090eb60cffd5---": "{\"
+    credentialType\":\"IdToken\",\"homeAccountId\":\"09931512-2bd0-4c6f-99e8-eed89f882827.3f2fd500-5014-4b19-a974-090eb60cffd5\",\"environment\":\"login.windows.net\",\"clientId\":\"161e3509-0118-4ea8-a1e0-2a8f9e937eb9\",\"secret\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiIxNjFlMzUwOS0wMTE4LTRlYTgtYTFlMC0yYThmOWU5MzdlYjkiLCJpc3MiOiJodHRwczovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vM2YyZmQ1MDAtNTAxNC00YjE5LWE5NzQtMDkwZWI2MGNmZmQ1L3YyLjAiLCJpYXQiOjE2ODI0MTgwMjAsIm5iZiI6MTY4MjQxODAyMCwiZXhwIjoxNjgyNDIxOTIwLCJhaW8iOiJBVFFBeS84VEFBQUFETGdmbWhTT2hhYmpzOHh1UGxCT1QzdnB3aldCeC96dHJoYU9WcVg0dlZvY3IwSHI4NVJSaDQ2d0JhMnhDSDNwIiwibmFtZSI6IlN1bmlsIEJhbm1hbGEiLCJub25jZSI6IjU5ZGE3M2QxLTczNmUtNGYwOC1hZTY3LWM3NGYzZTNlODhmNSIsIm9pZCI6IjA5OTMxNTEyLTJiZDAtNGM2Zi05OWU4LWVlZDg5Zjg4MjgyNyIsInByZWZlcnJlZF91c2VybmFtZSI6IktDRTA3NEJDVDA0NUBraHdvcGEuZWR1Lm5wIiwicmgiOiIwLkFTb0FBTlV2UHhSUUdVdXBkQWtPdGd6XzFRazFIaFlZQWFoT29lQXFqNTZUZnJrcUFOUS4iLCJzdWIiOiI4bjJ4MXFTOWMycEJnZlRGTnc5U25lcXV0VEVnMHBwWFR5cmtfb2VTRVR3IiwidGlkIjoiM2YyZmQ1MDAtNTAxNC00YjE5LWE5NzQtMDkwZWI2MGNmZmQ1IiwidXRpIjoidlNTQlppR2JuMGFBRG5YbkVvWVlBQSIsInZlciI6IjIuMCJ9.Rag4XE0ERc4pGOG8bocVv8mTnp2t0k8-8cEXi7CECk6499bH5YAOZ6zc6eGhb0OmKOue6NB3FFpNeIOnUXawGjsf3IzO-qdhpdGTl3OsTaSXbAhbnc7kegu5mHwRGCPjk3otBB0NubBnsXs2Jdstba0C0YZy2DlIfNWSlGt4orVjfhHa8vxqYIDJqz5ParbppKJC0cvAnJlXSo3Q6W0Lj2TLZNRvjsQAz8dKJIHDNXbNytEI7UIjVqzgJY2XP9cLG9mFjJy52PEA54OsLW3-7JY1q2ths93y5J6Mc3peT2T9qqG1DtPX_9uyFrDhMwu6JNR4QcoLVwi9EgF7BeKuRQ\",\"realm\":\"3f2fd500-5014-4b19-a974-090eb60cffd5\"}",
+    "msal.token.keys.161e3509-0118-4ea8-a1e0-2a8f9e937eb9": "{\"
+    idToken\":[\"09931512-2bd0-4c6f-99e8-eed89f882827.3f2fd500-5014-4b19-a974-090eb60cffd5-login.windows.net-idtoken-161e3509-0118-4ea8-a1e0-2a8f9e937eb9-3f2fd500-5014-4b19-a974-090eb60cffd5---\"],\"accessToken\":[\"09931512-2bd0-4c6f-99e8-eed89f882827.3f2fd500-5014-4b19-a974-090eb60cffd5-login.windows.net-accesstoken-161e3509-0118-4ea8-a1e0-2a8f9e937eb9-3f2fd500-5014-4b19-a974-090eb60cffd5-openid profile email user.read--\"],\"refreshToken\":[\"09931512-2bd0-4c6f-99e8-eed89f882827.3f2fd500-5014-4b19-a974-090eb60cffd5-login.windows.net-refreshtoken-161e3509-0118-4ea8-a1e0-2a8f9e937eb9----\"]}",
+    "09931512-2bd0-4c6f-99e8-eed89f882827.3f2fd500-5014-4b19-a974-090eb60cffd5-login.windows.net-accesstoken-161e3509-0118-4ea8-a1e0-2a8f9e937eb9-3f2fd500-5014-4b19-a974-090eb60cffd5-openid profile email user.read--": "{\"
+    homeAccountId\":\"09931512-2bd0-4c6f-99e8-eed89f882827.3f2fd500-5014-4b19-a974-090eb60cffd5\",\"credentialType\":\"AccessToken\",\"secret\":\"eyJ0eXAiOiJKV1QiLCJub25jZSI6ImMxME1OVmpNZnVkT2VEd1pzQm14X3d1YjZkUGh6M3ZWUjBkMy16TUI0eFEiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC8zZjJmZDUwMC01MDE0LTRiMTktYTk3NC0wOTBlYjYwY2ZmZDUvIiwiaWF0IjoxNjgyNDE4MDIwLCJuYmYiOjE2ODI0MTgwMjAsImV4cCI6MTY4MjQyMzA0MywiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFUUUF5LzhUQUFBQXB6QkNPRGM0eHZCM1dXZGlTbENBd1BvL1NNdWswMmd1anFxN2VqcU9yRVFPeVdzYk9jU1ZQYXU3T1hjdkJ1NEIiLCJhbXIiOlsicHdkIl0sImFwcF9kaXNwbGF5bmFtZSI6Ik1TIENvbmNlcnRvIiwiYXBwaWQiOiIxNjFlMzUwOS0wMTE4LTRlYTgtYTFlMC0yYThmOWU5MzdlYjkiLCJhcHBpZGFjciI6IjAiLCJmYW1pbHlfbmFtZSI6IkJhbm1hbGEiLCJnaXZlbl9uYW1lIjoiU3VuaWwiLCJpZHR5cCI6InVzZXIiLCJpcGFkZHIiOiIxMTAuNDQuMTI2LjExOSIsIm5hbWUiOiJTdW5pbCBCYW5tYWxhIiwib2lkIjoiMDk5MzE1MTItMmJkMC00YzZmLTk5ZTgtZWVkODlmODgyODI3IiwicGxhdGYiOiI4IiwicHVpZCI6IjEwMDMyMDAwQ0NDRkY1MTciLCJyaCI6IjAuQVNvQUFOVXZQeFJRR1V1cGRBa090Z3pfMVFNQUFBQUFBQUFBd0FBQUFBQUFBQUFxQU5RLiIsInNjcCI6Im9wZW5pZCBwcm9maWxlIFVzZXIuUmVhZCBlbWFpbCIsInN1YiI6IlRTTnplc2hBTmlDNXlZM0wtNGJmWU1wSHpGRVUwWm9Oa0NXYXV2cnA5OGciLCJ0ZW5hbnRfcmVnaW9uX3Njb3BlIjoiQVMiLCJ0aWQiOiIzZjJmZDUwMC01MDE0LTRiMTktYTk3NC0wOTBlYjYwY2ZmZDUiLCJ1bmlxdWVfbmFtZSI6IktDRTA3NEJDVDA0NUBraHdvcGEuZWR1Lm5wIiwidXBuIjoiS0NFMDc0QkNUMDQ1QGtod29wYS5lZHUubnAiLCJ1dGkiOiJ2U1NCWmlHYm4wYUFEblhuRW9ZWUFBIiwidmVyIjoiMS4wIiwid2lkcyI6WyJiNzlmYmY0ZC0zZWY5LTQ2ODktODE0My03NmIxOTRlODU1MDkiXSwieG1zX3N0Ijp7InN1YiI6IjhuMngxcVM5YzJwQmdmVEZOdzlTbmVxdXRURWcwcHBYVHlya19vZVNFVHcifSwieG1zX3RjZHQiOjE1Mzc3OTA3ODd9.K8dOjo4ngleEyq1-TrvFGdME3zzM9dvNjsP1Ozf7Tpn6cEiZpM8CBtzucQ8YjVMg_fFegU3l8ZThd69vVHyJIItCL5xO53hQ2Jzn8XB3fiMfD9wNBWI7bvCuJDtAOkRcXa1WC3vdcueuQ_UNuCzxZZDcEy9lysk3KdKpAagzGGmbZqekzBRF4eU13diqqXcL4nuPtrKZNuBZfjfVRdis23BOAi_jbDvUoRSjeXiiEL9RMEUSI2B6acthYCr2tEdFfDBt5wYlvVja_3FaTm9b1uEVAey9GmGnROxJYWpn6Y_V1Dl_1r4Kis_K4qxHme9CHDWWjNPg5NE1cGgGJFE0Aw\",\"cachedAt\":\"1682418321\",\"expiresOn\":\"1682423042\",\"extendedExpiresOn\":\"1682427764\",\"environment\":\"login.windows.net\",\"clientId\":\"161e3509-0118-4ea8-a1e0-2a8f9e937eb9\",\"realm\":\"3f2fd500-5014-4b19-a974-090eb60cffd5\",\"target\":\"openid profile email User.Read\",\"tokenType\":\"Bearer\"}",
+    "09931512-2bd0-4c6f-99e8-eed89f882827.3f2fd500-5014-4b19-a974-090eb60cffd5-login.windows.net-refreshtoken-161e3509-0118-4ea8-a1e0-2a8f9e937eb9----": "{\"
+    clientId\":\"161e3509-0118-4ea8-a1e0-2a8f9e937eb9\",\"credentialType\":\"RefreshToken\",\"environment\":\"login.windows.net\",\"homeAccountId\":\"09931512-2bd0-4c6f-99e8-eed89f882827.3f2fd500-5014-4b19-a974-090eb60cffd5\",\"secret\":\"0.ASoAANUvPxRQGUupdAkOtgz_1Qk1HhYYAahOoeAqj56TfrkqANQ.AgABAAEAAAD--DLA3VO7QrddgJg7WevrAgDs_wUA9P-Ll1ina8DvXq5psirdkz5j4GYxyNrya4lPiDsE05JeL2diS8YP2XLYzpzwqbA7Qb_HjythIiJbHLeUGagn1GCuHjOythH7HaXX3pCBHmUuyrXwkOC8ndeOOH161RJz3nnfNT17y5IvfH4NWupEeGmoFcoAfUhO8n8j4G6fKCic6ovOXqHYinCP1moo6Fp6tuY3XHtWmzx-twGHEICNfCXZe8kLv3LpJF0xnhEx5wSJOG5fEIfK87eYRbU-8U-2KHUfoFb80rY0MSQ1EW6geU1fjMp4OZTAEDdvYgsBCv74UNa1uzph_K7b6WDuHOIqRHhcSYlFU_dJtrvZupE-XqzLWuX-BmZJvD1z5tcRqLIOOaiv9h8R2ZK8DPFY6n8Lqqi4iO8TmbnJ_r2rvKrE5MzQaNryympEfp36-sRLNV97YeF8zqSyS6Z7Rv3vkVx9dy7WfRe-2I03pjnlnFVMbUQhp7qapY49D8cNMkuJHjn7eHkTUa9UiLm16NsuiSf-n6hZf8ziskH3U78heZjMqzxfJ1ZGF46yiz0ow_4dvZS158Cyi9XAAnAAkwwWfPLX6j7UD3M1sqjCDVd19jQZkOKPfoccR3oXH_pVX2KX-Gax4Mj_kVppK0JIyzq290vccBt1KchHFzcWcj4v99x8a14gEYcmJmTa71joow94MPNbRvUfWlcRLKJnSzS7JhwLcHHQscI1t5kdGmXELlzi2ZaEGM2sU_fH1PrDUeWyiJYS4C1EnNqtODp0oDI\"}"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+As I have mentioned above, I am studying Computer Engineering in Khwopa College of Engineering(TU), Nepal. I want to complete the course as I found the course helpful for my career. I have been learning web app development for 1 year and have been learning to deploy projects on different platforms like VPS server and digital ocean. With this course, I will be able to to deploy my projects in AWS.  This course will boost my job prospects after graduation from the college too. It will help perform better in my career and give me an edge over my competitors. Completing this course will boost my self-confidence, knowing that I not only completed a very important task but also took the responsibility of creating a foundation for getting me closer to my career goals. Also, I intend to participate in Discussion Forums, that I have found to supplement my learning immensely. I also plan to grade assignments, which are to peer-reviewed, which I believe will an invaluable learning opportunity.

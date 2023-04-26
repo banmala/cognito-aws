@@ -1,6 +1,8 @@
 import './App.css';
 import LoginUsingGoogle from './components/LoginUsingGoogle';
 import { GoogleOAuthProvider } from '@react-oauth/google';
+import LoginUsingMS from './components/LoginUsingMSClass';
+import {LoginUsingMSFunction} from './components/LoginUsingMS Function';
 function App() {
   return (
     <GoogleOAuthProvider clientId={process.env.REACT_APP_Google_ClientId}>
@@ -13,6 +15,9 @@ function App() {
         {/* <GoogleLoginApp /> */}
         <br/>
         <LoginUsingGoogle />
+        <LoginUsingMSFunction />
+        <br />
+        {/* <LoginUsingMS /> */}
       </div>
     </GoogleOAuthProvider>
   );

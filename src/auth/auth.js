@@ -2,11 +2,10 @@ import AWS from "aws-sdk";
 import { CognitoUser, AuthenticationDetails } from "amazon-cognito-identity-js";
 import UserPool from "./UserPool";
 
-
 AWS.config.update({
     region: 'ap-southeast-2'
 });
-var cognitoidentityserviceprovider = new AWS.CognitoIdentityServiceProvider();
+export var cognitoidentityserviceprovider = new AWS.CognitoIdentityServiceProvider();
 
 const auth = {
     signUpConfirm: (email, code)=>{
@@ -51,6 +50,48 @@ const auth = {
             return data;
         });
     },
+    // signInwithMS:(accessToken)=>{
+    //     // const msalInstance = new msal.PublicClientApplication(msalConfig);        
+    //     const cognitoUser = userPool.getCurrentUser();
+    //     if (cognitoUser) {
+    //     cognitoUser.getSession((err, session) => {
+    //         if (err) {
+    //         reject(err);
+    //         } else if (!session.isValid()) {
+    //         cognitoUser.signOut();
+    //         resolve(null);
+    //         } else {
+    //         const idToken = session.getIdToken().getJwtToken();
+    //         if (accessToken) {
+    //             resolve(cognitoUser);
+    //         } else {
+    //             msalInstance
+    //             .acquireTokenSilent({
+    //                 scopes: ['openid', 'profile', cognitoConfig.UserPoolId],
+    //                 account: msalInstance.getAccountByUsername(session.getIdToken().payload.preferred_username),
+    //             })
+    //             .then((res) => {
+    //                 cognitoUser
+    //                 .authenticateUser(new AuthenticationDetails({ AccessToken: res.accessToken }), {
+    //                     onSuccess: () => {
+    //                     resolve(cognitoUser);
+    //                     },
+    //                     onFailure: () => {
+    //                     reject();
+    //                     },
+    //                 });
+    //             })
+    //             .catch(() => {
+    //                 reject();
+    //             });
+    //         }
+    //         }
+    //     });
+    //     } else {
+    //     resolve(null);
+    //     }
+    //     return user;
+    // }
     // signInWithGoogleProvider: () =>{
 
     //     var params = {

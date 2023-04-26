@@ -1,15 +1,18 @@
 import { CognitoUser } from 'amazon-cognito-identity-js';
 import UserPool from "./UserPool";
+import jwt_decode from "jwt-decode";
 
-const AuthenticateWithCognito = (idToken) => {
+const AuthenticateWithCognito = async (idToken) => {
+  const decodedToken = jwt_decode(idToken);
   const googleAuthProvider = {
     ProviderName: 'Google',
     ProviderAttributeValue: idToken
   };
 
   const cognitoUser = new CognitoUser({
-    Username: 'google_' + idToken, // A unique username that identifies the user in Cognito
-    Pool: UserPool
+    Username: decodedToken.email, // A unique username that identifies the user in Cognito
+    Pool: UserPool,
+    Storage: window.localStorage
   });
 
   cognitoUser.authenticateUser(

@@ -1,13 +1,12 @@
 import { GoogleLogin } from '@react-oauth/google';
 import {AuthenticateWithCognito} from '../auth/googlecognito';
-import jwt_decode from 'jwt-decode';
 const clientId = process.env.REACT_APP_Google_ClientId;
 
 function LoginUsingGoogle() {
   const onSuccess = (res) => {
     console.log("something!");
     console.log("res: ", res);
-    AuthenticateWithCognito(jwt_decode(res.credential).jti);
+    AuthenticateWithCognito(res.credential);
     console.log("here");
   };
 
