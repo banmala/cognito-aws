@@ -71,8 +71,8 @@ const auth = {
     //                 account: msalInstance.getAccountByUsername(session.getIdToken().payload.preferred_username),
     //             })
     //             .then((res) => {
-    //                 cognitoUser
-    //                 .authenticateUser(new AuthenticationDetails({ AccessToken: res.accessToken }), {
+                    // cognitoUser
+                    // .authenticateUser(new AuthenticationDetails({ AccessToken: res.accessToken }), {
     //                     onSuccess: () => {
     //                     resolve(cognitoUser);
     //                     },
