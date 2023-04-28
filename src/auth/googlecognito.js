@@ -5,39 +5,48 @@ import jwt_decode from "jwt-decode";
 const AuthenticateWithCognito = (idToken) => {
   console.log("idToken: ", idToken)
   const decodedToken = jwt_decode(idToken);  
-  const signUpParams = {
-    // ClientId: process.env.REACT_APP_Cognito_ClientId,
-    Username: decodedToken.email,
-    Password: 'C-mylovemango0@',
-    // UserAttributes: [
-    //   {
-    //     Name: 'email',
-    //     Value: decodedToken.email
-    //   },
-    //   {
-    //     Name: 'given_name',
-    //     Value: decodedToken.given_name
-    //   },
-    //   {
-    //     Name: 'family_name',
-    //     Value: decodedToken.family_name
-    //   }
-    // ],
-    // ValidationData: [
-    //   { Name: 'google_access_token', Value: idToken }
-    // ],
-  };
-  
-  // UserPool.signUp(signUpParams, (err, data) => {
-  //   if (err){
-  //     console.log("ERROR: ",  err);
-  //   }else{
-  //     console.log("data: ", data);
-  //   }
-  // });
+  // const signUpParams = {
+  //   Username: decodedToken.email,
+  //   Password: 'C-mylovemango0@',
+  //   UserAttributes: [
+  //     {
+  //       Name: 'email',
+  //       Value: decodedToken.email
+  //     },
+  //     {
+  //       Name: 'given_name',
+  //       Value: decodedToken.given_name
+  //     },
+  //     {
+  //       Name: 'family_name',
+  //       Value: decodedToken.family_name
+  //     }
+  //   ],
+  //   ValidationData: [
+  //     { Name: 'google_access_token', Value: idToken }
+  //   ],
+  //   ClientMetadata: null
+  // };
 
   UserPool.signUp(
-    signUpParams,
+    decodedToken.email, 'C-mylovemango0@',
+    [
+      {
+        Name: 'email',
+        Value: decodedToken.email
+      },
+      {
+        Name: 'given_name',
+        Value: decodedToken.given_name
+      },
+      {
+        Name: 'family_name',
+        Value: decodedToken.family_name
+      }
+    ],
+    [
+      { Name: 'google_access_token', Value: idToken }
+    ],
     (err,data)=>{
       if(err){
         console.log("err:", err);
@@ -46,6 +55,16 @@ const AuthenticateWithCognito = (idToken) => {
       }
     }
   );
+  // UserPool.signUp(
+  //   signUpParams,
+  //   (err,data)=>{
+  //     if(err){
+  //       console.log("err:", err);
+  //     }else{
+  //       console.log("data:", data);
+  //     }
+  //   }
+  // );
 
 
 
