@@ -16,9 +16,8 @@ function App() {
         {/* <GoogleLoginApp /> */}
         <br/>
         <LoginUsingGoogle />
-        <LoginUsingMSFunction />
         <br />
-        <GoogleLoginApp />
+        {/* <GoogleLoginApp /> */}
         {/* <LoginUsingMS /> */}
       </div>
     </GoogleOAuthProvider>

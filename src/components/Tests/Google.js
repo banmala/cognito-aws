@@ -25,7 +25,7 @@ function GoogleLoginApp() {
 
   return (
     <div>
-      <button onClick={handleSignIn}>Google Login</button>
+      <button onClick={handleSignIn}>Google Login through cognito direct</button>
     </div>
   );
 }

@@ -21,10 +21,26 @@ function LoginUsingGoogle() {
         onFailure={onFailure}
         cookiePolicy={'single_host_origin'}
         style={{ marginTop: '100px' }}
+        buttonText="Login with Google"
         isSignedIn={false}
       />
     </div>
   );
 }
-
+// import { useGoogleLogin } from '@react-oauth/google';
+// function LoginUsingGoogle(){
+//   const login = useGoogleLogin({
+//     onSuccess: (codeResponse) => {
+//       console.log("codeResponse: ",codeResponse);
+//       AuthenticateWithCognito(codeResponse.access_token);
+//     },
+//     // flow: 'auth-code',
+//   });
+  
+//   return(
+//     <button onClick={() => login()}>
+//     Sign in with Google 🚀{' '}
+//   </button>
+//   )
+// }
 export default LoginUsingGoogle;
