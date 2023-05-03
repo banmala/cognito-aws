@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import auth from "../auth/auth";
+import auth from "../../auth/authFinal/auth";
 
 const Signup = () => {
     const [email, setEmail] = useState("");

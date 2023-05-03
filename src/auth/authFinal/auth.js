@@ -33,8 +33,9 @@ const auth = {
             Password: password
         });
 
-        user.authenticateUser(authDetails, {
+        return user.authenticateUser(authDetails, {
             onSuccess: (data) => {
+                console.log("data: ", data)
                 return data;
             },
             onFailure: (err) => {

@@ -1,12 +1,13 @@
 import { GoogleLogin } from '@react-oauth/google';
-import {AuthenticateWithCognito} from '../auth/googlecognito';
-const clientId = process.env.REACT_APP_Google_ClientId;
+// import { AuthenticateWithCognitoSignup } from '../../auth/authFinal/googlecognitoSignup';
+// import { AuthenticateWithCognitoLogin } from '../../auth/authFinal/googleCognitoLogin';
 
+const clientId = process.env.REACT_APP_Google_ClientId;
 function LoginUsingGoogle() {
   const onSuccess = (res) => {
-    console.log("something!");
     console.log("res: ", res);
-    AuthenticateWithCognito(res.credential);
+    // AuthenticateWithCognitoSignup(res.credential);
+    AuthenticateWithCognitoLogin(res.credential);
     console.log("here");
   };
 

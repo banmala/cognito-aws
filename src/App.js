@@ -1,26 +1,26 @@
 import './App.css';
-import LoginUsingGoogle from './components/LoginUsingGoogle';
-import { GoogleOAuthProvider } from '@react-oauth/google';
-import LoginUsingMS from './components/LoginUsingMSClass';
-import {LoginUsingMSFunction} from './components/LoginUsingMS Function';
-import GoogleLoginApp from './components/Tests/Google';
+// import LoginUsingGoogle from './components/componentsFinal/LoginUsingGoogle';
+// import { GoogleOAuthProvider } from '@react-oauth/google';
+// import Login from './components/componentsFinal/Login';
+// import Signup from './components/componentsFinal/Signup';
+// import ConfirmSignup from './components/componentsFinal/ConfirmSignup';
+import CognitoLogin from './components/components/GoogleLogin';
+
 function App() {
   return (
-    <GoogleOAuthProvider clientId={process.env.REACT_APP_Google_ClientId}>
-      <div>
-        {/* <Signup />
-        <br/>
-        <ConfirmSignup />
-        <br/>
-        <Login /> */}
-        {/* <GoogleLoginApp /> */}
-        <br/>
-        <LoginUsingGoogle />
-        <br />
-        {/* <GoogleLoginApp /> */}
-        {/* <LoginUsingMS /> */}
-      </div>
-    </GoogleOAuthProvider>
+    // <GoogleOAuthProvider clientId={process.env.REACT_APP_Google_ClientId}>
+    //   <div>
+    //     <Login />
+    //     <br />
+    //     <Signup />
+    //     <br />
+    //     <ConfirmSignup />
+    //     <LoginUsingGoogle />
+    //   </div>
+    // </GoogleOAuthProvider>
+    <div>
+      <CognitoLogin />
+    </div>
   );
 }
 
