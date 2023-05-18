@@ -1,5 +1,5 @@
 import AWS from "aws-sdk";
-import { CognitoUser, AuthenticationDetails } from "amazon-cognito-identity-js";
+import { CognitoUser, AuthenticationDetails, CognitoUserAttribute } from "amazon-cognito-identity-js";
 import UserPool from "./UserPool";
 
 AWS.config.update({
@@ -9,17 +9,28 @@ export var cognitoidentityserviceprovider = new AWS.CognitoIdentityServiceProvid
 
 const auth = {
     signUpConfirm: (email, code)=>{
-        var params = {
-            ClientId: process.env.REACT_APP_Cognito_ClientId,
+        // var params = {
+        //     ClientId: process.env.REACT_APP_Cognito_ClientId,
+        //     Username: email,
+        //     ConfirmationCode: code,
+        // };
+        // cognitoidentityserviceprovider.confirmSignUp(params, function(err, data) {
+        //     if(err){
+        //         throw err;
+        //     }else{
+        //         return data;
+        //     }
+        // });
+        const user = new CognitoUser({
             Username: email,
-            ConfirmationCode: code,
-        };
-        cognitoidentityserviceprovider.confirmSignUp(params, function(err, data) {
-            if(err){
-                throw err;
-            }else{
-                return data;
+            Pool: UserPool
+        });
+        user.confirmRegistration(code, true, function(err, result) {
+            if (err) {
+                alert(err.message || JSON.stringify(err));
+                return;
             }
+            console.log(' confirmRegistration call result: ' + result);
         });
     },
     logIn: (email, password) => {
@@ -44,13 +55,69 @@ const auth = {
         });
     },
     signUp:(email, password)=>{
-        UserPool.signUp(email, password, [], null, (err, data) => {
-            if (err){
-                throw err;
-            }
-            return data;
-        });
+        return new Promise((resolve,reject)=>{
+            const dataEmail = {
+                Name: 'email',
+                Value: email,
+            };
+            const dataPhoneNumber = {
+                Name: 'phone_number',
+                Value: '+9898989898',
+            };
+            const attributeEmail = new CognitoUserAttribute(dataEmail);
+            const attributePhoneNumber = new CognitoUserAttribute(dataPhoneNumber);        
+            const attributeList = [];
+            attributeList.push(attributeEmail);
+            attributeList.push(attributePhoneNumber);
+            UserPool.signUp(email, password, [], null, (err, data) => {
+                if (err) {
+                    console.log("err: ", err);
+                    reject(err);
+                }else{
+                    console.log("data: ", data)
+                    resolve(data);
+                }
+            })
+        })
+        
     },
+
+    getUser:(email)=>{
+        // const user = new CognitoUser({
+        //     Username: email,
+        //     Pool: UserPool
+        // });
+        // console.log("user: ", user)
+        // user.getUserAttributes((err, result)=>{
+        //     if (err) {
+        //         throw(err);
+        //     }
+        //     return result
+        // });
+        cognitoidentityserviceprovider.adminGetUser(
+            {Username: email,UserPoolId:UserPool.getUserPoolId()},
+            (err,data)=>{
+                if(err){
+                    console.log("err: ", err);
+                }
+                console.log("data: ", data)
+            }
+        )
+    },
+
+    deleteUser: (email) => {
+        const user = new CognitoUser({
+            Username: email,
+            Pool: UserPool
+        });
+        user.deleteUser(function(err, result) {
+            if (err) {
+                alert(err.message || JSON.stringify(err));
+                return;
+            }
+            console.log('call result: ' + result);
+        });
+    }
     // signInwithMS:(accessToken)=>{
     //     // const msalInstance = new msal.PublicClientApplication(msalConfig);        
     //     const cognitoUser = userPool.getCurrentUser();

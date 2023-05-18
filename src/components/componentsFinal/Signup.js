@@ -5,14 +5,14 @@ const Signup = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     
-    const onSubmit = (e) => {
+    const onSubmit = async (e) => {
         e.preventDefault();
-
         try{
-            const result = auth.signUp(email, password);
-            console.log("result: ", result);
+            console.log("Asdfasdf")
+            const result = await auth.signUp(email, password);
+            console.log("result at signup page : ", result);
         }catch(error){
-            console.log("error: ", error);
+            console.log("errorasdfasdf sadfasdf : ", error);
         }
     };
 

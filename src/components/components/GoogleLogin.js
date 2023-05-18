@@ -17,7 +17,8 @@ const CognitoLogin = () => {
     });
     console.log("here then")
     const data = await response.json();
-    console.log("data fromexchange = ", data.access_token)
+    console.log("data fromexchange = ", data)
+    console.log("data.accesstoken fromexchange = ", data.access_token)
     // if(data.access_token){
     //   const tokenVerificationResponse = await fetch(
     //     "http://localhost:9002/auth/cognito/verifyjwt",
@@ -45,7 +46,7 @@ const CognitoLogin = () => {
     const redirectUri = 'http://localhost:3000';
     const responseType = 'code';
     const scope = 'openid email phone';
-    const state = 'AMbdmDnvGPI9JC3mCiF9Dr4_ypa8tQOeSO0OjFh6iZtCp6qpQpBwg3yxeyqCGs8c9s7yO9V1tvRCeBJCPa85O0a5Hc2K7cyHpO_ffrW2nPS25GB54eGP0qLvO3ydYdOWC-wibQXUGOO0ujfQCWVGQkcHLHWL92wPadX-o-jIa0oM1az-pHGX9a_ohaReWpI-HOZJA03XM4gd9Z5I_vfue4EwD51VmlAGcNkRL_BVGRkMjSuIGUczp2BdmCK5D71AhwXNkBGOLl4lDouvXsbn82tux8Q4WtS5XVKHjhgr0Tp2HmkU6-oz0V24S_eOxSvFrIWr4Tmkl6gfXE7OPR50lfrcfdAslJV2';
+    // const state = 'AMbdmDnvGPI9JC3mCiF9Dr4_ypa8tQOeSO0OjFh6iZtCp6qpQpBwg3yxeyqCGs8c9s7yO9V1tvRCeBJCPa85O0a5Hc2K7cyHpO_ffrW2nPS25GB54eGP0qLvO3ydYdOWC-wibQXUGOO0ujfQCWVGQkcHLHWL92wPadX-o-jIa0oM1az-pHGX9a_ohaReWpI-HOZJA03XM4gd9Z5I_vfue4EwD51VmlAGcNkRL_BVGRkMjSuIGUczp2BdmCK5D71AhwXNkBGOLl4lDouvXsbn82tux8Q4WtS5XVKHjhgr0Tp2HmkU6-oz0V24S_eOxSvFrIWr4Tmkl6gfXE7OPR50lfrcfdAslJV2';
     const identityProvider = 'Google';
 
     const authorizeUrl = `https://concertodev.auth.ap-southeast-2.amazoncognito.com/oauth2/authorize?client_id=${clientId}&redirect_uri=${redirectUri}&response_type=${responseType}&scope=${scope}&identity_provider=${identityProvider}`;
