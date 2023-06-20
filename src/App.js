@@ -5,6 +5,7 @@ import './App.css';
 // import Signup from './components/componentsFinal/Signup';
 // import ConfirmSignup from './components/componentsFinal/ConfirmSignup';
 import CognitoLogin from './components/components/GoogleLogin';
+import CognitoLoginWithMS from './components/components/MSLogin';
 
 function App() {
   return (
@@ -20,6 +21,11 @@ function App() {
     // </GoogleOAuthProvider>
     <div>
       <CognitoLogin />
+      <br />
+      <br />
+      <br />
+      <br />
+      <CognitoLoginWithMS />
     </div>
   );
 }
